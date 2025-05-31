@@ -57,7 +57,7 @@ class KeywordQueryEventListener(EventListener):
             ExtensionResultItem(
                 icon='images/icon.png',
                 name= f"Open in browser",
-                description=f"Open URL {completed_url} in {self.browser.} in browser",
+                description=f"Open URL {completed_url} in browser",
                 on_enter=ExtensionCustomAction({"url": input_url}, keep_app_open=False)
             )
         ]
